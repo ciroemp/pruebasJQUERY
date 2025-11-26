@@ -47,3 +47,31 @@ $(document).ready(function() {
     });
 
 }); 
+
+/*
+
+(function() {
+
+    var contador = 0;
+
+    $("button").on("click", function() {
+        contador++;
+        
+        var linea = "";
+
+        linea += '<tr>';
+        linea += '<td>3</td>';
+        linea += '<td>x</td>';
+        linea += '<td>' + contador + '</td>';
+        linea += '<td>=</td>';
+        linea += '<td>' + (contador * 3) + '</td>';
+        linea += '</tr>';
+
+        $("table").append(linea);
+
+    });
+
+})();
+
+
+*/
